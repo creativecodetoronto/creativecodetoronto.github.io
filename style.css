@@ -4,6 +4,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #1c1c1c;
 }
 
 svg {
@@ -24,22 +25,24 @@ svg {
   margin: 20px auto;
   padding: 20px;
   max-width: 400px;
-  background-color: #fc037b;
+  background-color: #1c1c1c;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 34px;
   transition: all ease 0.3s;
   font-size: 20px;
+  height: 68px;
+  box-sizing: border-box;
 }
 
 .menu a:hover {
-  background-color: #0d7aff;
+  background-color: #2D52FF;
 }
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  color: #fc037b;
+  color: #2D52FF;
   text-align: center;
   font-size: 54px;
 }
