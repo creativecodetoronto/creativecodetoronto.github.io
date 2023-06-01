@@ -61,6 +61,19 @@ h1 {
   margin-right: 20px;
 }
 
+.break {
+  display: none;
+}
+@media all and (max-width: 800px) {
+  .break {
+    display: block;
+  }
+  .logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
 h2 {
   text-align: center;
   font-weight: normal;
